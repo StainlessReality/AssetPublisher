@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: bb6b7e4ece2a15e49afa6fe9d9f99b79
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 517512281268183868
+    second: Forks|CaskAction
+  - first:
+      74: -7697725375210691494
+    second: Forks|CaskLift.001Action
+  - first:
+      74: 3666744335818974746
+    second: Forks|CaskLift.002Action
+  - first:
+      74: 8347386948178748766
+    second: Forks|ForksAction
+  - first:
+      74: -7625082723073875181
+    second: Forks|HandleAction
+  - first:
+      74: -327623715390573502
+    second: CaskLift.001|CaskAction
+  - first:
+      74: -6540544779444509666
+    second: CaskLift.001|CaskLift.001Action
+  - first:
+      74: 2208626793678429784
+    second: CaskLift.001|CaskLift.002Action
+  - first:
+      74: 3805514169971759969
+    second: CaskLift.001|ForksAction
+  - first:
+      74: 2682729187761248370
+    second: CaskLift.001|HandleAction
+  - first:
+      74: 2083405344587690033
+    second: Cask|CaskAction
+  - first:
+      74: 4185192150696953436
+    second: Cask|CaskLift.001Action
+  - first:
+      74: 5113558344447645737
+    second: Cask|CaskLift.002Action
+  - first:
+      74: 2990926928630568737
+    second: Cask|ForksAction
+  - first:
+      74: -7460144663541182414
+    second: Cask|HandleAction
+  - first:
+      74: -1511009457501376149
+    second: CaskLift.002|CaskAction
+  - first:
+      74: 6631667405615071748
+    second: CaskLift.002|CaskLift.001Action
+  - first:
+      74: 7436105778573919084
+    second: CaskLift.002|CaskLift.002Action
+  - first:
+      74: -5964435839534401313
+    second: CaskLift.002|ForksAction
+  - first:
+      74: 8833912985045664799
+    second: CaskLift.002|HandleAction
+  - first:
+      74: 5197083090363091917
+    second: Handle|CaskAction
+  - first:
+      74: 1378610440410592625
+    second: Handle|CaskLift.001Action
+  - first:
+      74: 5430503077567003794
+    second: Handle|CaskLift.002Action
+  - first:
+      74: -2474221740867160974
+    second: Handle|ForksAction
+  - first:
+      74: 1408911813552154412
+    second: Handle|HandleAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CaskLift
+    second: {fileID: 2100000, guid: 09b04ad37cdc572448104bf0ffdfd53d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CaskOrange
+    second: {fileID: 2100000, guid: 5924d149091ea9c488632e5c93708c24, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
