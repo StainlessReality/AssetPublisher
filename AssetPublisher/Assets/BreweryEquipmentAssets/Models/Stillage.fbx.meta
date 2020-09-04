@@ -1,287 +1,106 @@
 fileFormatVersion: 2
-guid: 28f7c1029e868e44983b1b0fbdb391c4
+guid: 812a4285688ce48448346aba091f0639
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Armature
-    100002: Armature.001
-    100004: Armature.002
-    100006: Armature.003
-    100008: Armature.004
-    100010: Armature.005
-    100012: Armature.006
-    100014: Armature.007
-    100016: Bone
-    100018: Bone 1
-    100020: Bone 2
-    100022: Bone 3
-    100024: Bone 4
-    100026: Bone 5
-    100028: Bone 6
-    100030: Bone 7
-    100032: Bone.001
-    100034: Bone.001 1
-    100036: Bone.001 2
-    100038: Bone.001 3
-    100040: Bone.001 4
-    100042: Bone.001 5
-    100044: Bone.001 6
-    100046: Bone.001 7
-    100048: Bone_end
-    100050: Bone_end 1
-    100052: Bone_end 2
-    100054: Bone_end 3
-    100056: Bone_end 4
-    100058: Bone_end 5
-    100060: Bone_end 6
-    100062: Bone_end 7
-    100064: CradleBottomToRig
-    100066: CradleBottomToRig.001
-    100068: CradleBottomToRig.002
-    100070: CradleBottomToRig.003
-    100072: CradleBottomToRig.004
-    100074: CradleBottomToRig.005
-    100076: CradleBottomToRig.006
-    100078: CradleBottomToRig.007
-    100080: CradleTopToRig
-    100082: CradleTopToRig.001
-    100084: CradleTopToRig.002
-    100086: CradleTopToRig.003
-    100088: CradleTopToRig.004
-    100090: CradleTopToRig.005
-    100092: CradleTopToRig.006
-    100094: CradleTopToRig.007
-    100096: Racking
-    100098: //RootNode
-    400000: Armature
-    400002: Armature.001
-    400004: Armature.002
-    400006: Armature.003
-    400008: Armature.004
-    400010: Armature.005
-    400012: Armature.006
-    400014: Armature.007
-    400016: Bone
-    400018: Bone 1
-    400020: Bone 2
-    400022: Bone 3
-    400024: Bone 4
-    400026: Bone 5
-    400028: Bone 6
-    400030: Bone 7
-    400032: Bone.001
-    400034: Bone.001 1
-    400036: Bone.001 2
-    400038: Bone.001 3
-    400040: Bone.001 4
-    400042: Bone.001 5
-    400044: Bone.001 6
-    400046: Bone.001 7
-    400048: Bone_end
-    400050: Bone_end 1
-    400052: Bone_end 2
-    400054: Bone_end 3
-    400056: Bone_end 4
-    400058: Bone_end 5
-    400060: Bone_end 6
-    400062: Bone_end 7
-    400064: CradleBottomToRig
-    400066: CradleBottomToRig.001
-    400068: CradleBottomToRig.002
-    400070: CradleBottomToRig.003
-    400072: CradleBottomToRig.004
-    400074: CradleBottomToRig.005
-    400076: CradleBottomToRig.006
-    400078: CradleBottomToRig.007
-    400080: CradleTopToRig
-    400082: CradleTopToRig.001
-    400084: CradleTopToRig.002
-    400086: CradleTopToRig.003
-    400088: CradleTopToRig.004
-    400090: CradleTopToRig.005
-    400092: CradleTopToRig.006
-    400094: CradleTopToRig.007
-    400096: Racking
-    400098: //RootNode
+    100000: Cradle1
+    100002: Cradle2
+    100004: Cradle3
+    100006: Cradle4
+    100008: Cradle5
+    100010: Cradle6
+    100012: Cradle7
+    100014: Cradle8
+    100016: CradleBottomToRig
+    100018: CradleBottomToRig.001
+    100020: CradleBottomToRig.002
+    100022: CradleBottomToRig.003
+    100024: CradleBottomToRig.004
+    100026: CradleBottomToRig.005
+    100028: CradleBottomToRig.006
+    100030: CradleBottomToRig.007
+    100032: Racking
+    100034: //RootNode
+    400000: Cradle1
+    400002: Cradle2
+    400004: Cradle3
+    400006: Cradle4
+    400008: Cradle5
+    400010: Cradle6
+    400012: Cradle7
+    400014: Cradle8
+    400016: CradleBottomToRig
+    400018: CradleBottomToRig.001
+    400020: CradleBottomToRig.002
+    400022: CradleBottomToRig.003
+    400024: CradleBottomToRig.004
+    400026: CradleBottomToRig.005
+    400028: CradleBottomToRig.006
+    400030: CradleBottomToRig.007
+    400032: Racking
+    400034: //RootNode
     2100000: Stillage
-    2300000: CradleBottomToRig
-    2300002: CradleBottomToRig.001
-    2300004: CradleBottomToRig.002
-    2300006: CradleBottomToRig.003
-    2300008: CradleBottomToRig.004
-    2300010: CradleBottomToRig.005
-    2300012: CradleBottomToRig.006
-    2300014: CradleBottomToRig.007
-    2300016: CradleTopToRig
-    2300018: CradleTopToRig.001
-    2300020: CradleTopToRig.002
-    2300022: CradleTopToRig.003
-    2300024: CradleTopToRig.004
-    2300026: CradleTopToRig.005
-    2300028: CradleTopToRig.006
-    2300030: CradleTopToRig.007
+    2300000: Cradle1
+    2300002: Cradle2
+    2300004: Cradle3
+    2300006: Cradle4
+    2300008: Cradle5
+    2300010: Cradle6
+    2300012: Cradle7
+    2300014: Cradle8
+    2300016: CradleBottomToRig
+    2300018: CradleBottomToRig.001
+    2300020: CradleBottomToRig.002
+    2300022: CradleBottomToRig.003
+    2300024: CradleBottomToRig.004
+    2300026: CradleBottomToRig.005
+    2300028: CradleBottomToRig.006
+    2300030: CradleBottomToRig.007
     2300032: Racking
-    3300000: CradleBottomToRig
-    3300002: CradleBottomToRig.001
-    3300004: CradleBottomToRig.002
-    3300006: CradleBottomToRig.003
-    3300008: CradleBottomToRig.004
-    3300010: CradleBottomToRig.005
-    3300012: CradleBottomToRig.006
-    3300014: CradleBottomToRig.007
-    3300016: CradleTopToRig
-    3300018: CradleTopToRig.001
-    3300020: CradleTopToRig.002
-    3300022: CradleTopToRig.003
-    3300024: CradleTopToRig.004
-    3300026: CradleTopToRig.005
-    3300028: CradleTopToRig.006
-    3300030: CradleTopToRig.007
+    3300000: Cradle1
+    3300002: Cradle2
+    3300004: Cradle3
+    3300006: Cradle4
+    3300008: Cradle5
+    3300010: Cradle6
+    3300012: Cradle7
+    3300014: Cradle8
+    3300016: CradleBottomToRig
+    3300018: CradleBottomToRig.001
+    3300020: CradleBottomToRig.002
+    3300022: CradleBottomToRig.003
+    3300024: CradleBottomToRig.004
+    3300026: CradleBottomToRig.005
+    3300028: CradleBottomToRig.006
+    3300030: CradleBottomToRig.007
     3300032: Racking
     4300000: Racking
     4300002: CradleBottomToRig
-    4300004: CradleTopToRig
+    4300004: Cradle3
     4300006: CradleBottomToRig.001
-    4300008: CradleTopToRig.001
+    4300008: Cradle2
     4300010: CradleBottomToRig.002
-    4300012: CradleTopToRig.002
+    4300012: Cradle1
     4300014: CradleBottomToRig.003
-    4300016: CradleTopToRig.003
-    4300018: CradleBottomToRig.004
-    4300020: CradleTopToRig.004
-    4300022: CradleBottomToRig.005
-    4300024: CradleTopToRig.005
-    4300026: CradleBottomToRig.006
-    4300028: CradleTopToRig.006
-    4300030: CradleBottomToRig.007
-    4300032: CradleTopToRig.007
-    7400000: Armature|ArmatureAction
-    7400002: Armature|ArmatureAction.001
-    7400004: Armature|ArmatureAction.002
-    7400006: Armature|ArmatureAction.003
-    7400008: Armature|ArmatureAction.004
-    7400010: Armature|ArmatureAction.005
-    7400012: Armature|ArmatureAction.006
-    7400014: Armature|ArmatureAction.007
-    7400016: Armature|ArmatureAction.008
-    7400018: Armature|Cradle.003Action
-    7400020: Armature|Cradle.003Action.001
-    7400022: Armature|Cradle.005Action.001
-    7400024: Armature|Cradle.005Action.002
-    7400026: Armature|Cradle.010Action
-    7400028: Armature|Cradle.010Action.001
-    7400030: Armature.001|ArmatureAction
-    7400032: Armature.001|ArmatureAction.001
-    7400034: Armature.001|ArmatureAction.002
-    7400036: Armature.001|ArmatureAction.003
-    7400038: Armature.001|ArmatureAction.004
-    7400040: Armature.001|ArmatureAction.005
-    7400042: Armature.001|ArmatureAction.006
-    7400044: Armature.001|ArmatureAction.007
-    7400046: Armature.001|ArmatureAction.008
-    7400048: Armature.001|Cradle.003Action
-    7400050: Armature.001|Cradle.003Action.001
-    7400052: Armature.001|Cradle.005Action.001
-    7400054: Armature.001|Cradle.005Action.002
-    7400056: Armature.001|Cradle.010Action
-    7400058: Armature.001|Cradle.010Action.001
-    7400060: Armature.002|ArmatureAction
-    7400062: Armature.002|ArmatureAction.001
-    7400064: Armature.002|ArmatureAction.002
-    7400066: Armature.002|ArmatureAction.003
-    7400068: Armature.002|ArmatureAction.004
-    7400070: Armature.002|ArmatureAction.005
-    7400072: Armature.002|ArmatureAction.006
-    7400074: Armature.002|ArmatureAction.007
-    7400076: Armature.002|ArmatureAction.008
-    7400078: Armature.002|Cradle.003Action
-    7400080: Armature.002|Cradle.003Action.001
-    7400082: Armature.002|Cradle.005Action.001
-    7400084: Armature.002|Cradle.005Action.002
-    7400086: Armature.002|Cradle.010Action
-    7400088: Armature.002|Cradle.010Action.001
-    7400090: Armature.003|ArmatureAction
-    7400092: Armature.003|ArmatureAction.001
-    7400094: Armature.003|ArmatureAction.002
-    7400096: Armature.003|ArmatureAction.003
-    7400098: Armature.003|ArmatureAction.004
-    7400100: Armature.003|ArmatureAction.005
-    7400102: Armature.003|ArmatureAction.006
-    7400104: Armature.003|ArmatureAction.007
-    7400106: Armature.003|ArmatureAction.008
-    7400108: Armature.003|Cradle.003Action
-    7400110: Armature.003|Cradle.003Action.001
-    7400112: Armature.003|Cradle.005Action.001
-    7400114: Armature.003|Cradle.005Action.002
-    7400116: Armature.003|Cradle.010Action
-    7400118: Armature.003|Cradle.010Action.001
-    7400120: Armature.004|ArmatureAction
-    7400122: Armature.004|ArmatureAction.001
-    7400124: Armature.004|ArmatureAction.002
-    7400126: Armature.004|ArmatureAction.003
-    7400128: Armature.004|ArmatureAction.004
-    7400130: Armature.004|ArmatureAction.005
-    7400132: Armature.004|ArmatureAction.006
-    7400134: Armature.004|ArmatureAction.007
-    7400136: Armature.004|ArmatureAction.008
-    7400138: Armature.004|Cradle.003Action
-    7400140: Armature.004|Cradle.003Action.001
-    7400142: Armature.004|Cradle.005Action.001
-    7400144: Armature.004|Cradle.005Action.002
-    7400146: Armature.004|Cradle.010Action
-    7400148: Armature.004|Cradle.010Action.001
-    7400150: Armature.005|ArmatureAction
-    7400152: Armature.005|ArmatureAction.001
-    7400154: Armature.005|ArmatureAction.002
-    7400156: Armature.005|ArmatureAction.003
-    7400158: Armature.005|ArmatureAction.004
-    7400160: Armature.005|ArmatureAction.005
-    7400162: Armature.005|ArmatureAction.006
-    7400164: Armature.005|ArmatureAction.007
-    7400166: Armature.005|ArmatureAction.008
-    7400168: Armature.005|Cradle.003Action
-    7400170: Armature.005|Cradle.003Action.001
-    7400172: Armature.005|Cradle.005Action.001
-    7400174: Armature.005|Cradle.005Action.002
-    7400176: Armature.005|Cradle.010Action
-    7400178: Armature.005|Cradle.010Action.001
-    7400180: Armature.006|ArmatureAction
-    7400182: Armature.006|ArmatureAction.001
-    7400184: Armature.006|ArmatureAction.002
-    7400186: Armature.006|ArmatureAction.003
-    7400188: Armature.006|ArmatureAction.004
-    7400190: Armature.006|ArmatureAction.005
-    7400192: Armature.006|ArmatureAction.006
-    7400194: Armature.006|ArmatureAction.007
-    7400196: Armature.006|ArmatureAction.008
-    7400198: Armature.006|Cradle.003Action
-    7400200: Armature.006|Cradle.003Action.001
-    7400202: Armature.006|Cradle.005Action.001
-    7400204: Armature.006|Cradle.005Action.002
-    7400206: Armature.006|Cradle.010Action
-    7400208: Armature.006|Cradle.010Action.001
-    7400210: Armature.007|ArmatureAction
-    7400212: Armature.007|ArmatureAction.001
-    7400214: Armature.007|ArmatureAction.002
-    7400216: Armature.007|ArmatureAction.003
-    7400218: Armature.007|ArmatureAction.004
-    7400220: Armature.007|ArmatureAction.005
-    7400222: Armature.007|ArmatureAction.006
-    7400224: Armature.007|ArmatureAction.007
-    7400226: Armature.007|ArmatureAction.008
-    7400228: Armature.007|Cradle.003Action
-    7400230: Armature.007|Cradle.003Action.001
-    7400232: Armature.007|Cradle.005Action.001
-    7400234: Armature.007|Cradle.005Action.002
-    7400236: Armature.007|Cradle.010Action
-    7400238: Armature.007|Cradle.010Action.001
+    4300016: CradleBottomToRig.004
+    4300018: Cradle6
+    4300020: CradleBottomToRig.005
+    4300022: Cradle4
+    4300024: CradleBottomToRig.006
+    4300026: Cradle8
+    4300028: CradleBottomToRig.007
+    4300030: Cradle7
+    4300032: Cradle5
+    7400000: Cradle3
+    7400002: Cradle2
+    7400004: Cradle1
+    7400006: Cradle6
+    7400008: Cradle4
+    7400010: Cradle8
+    7400012: Cradle7
+    7400014: Cradle5
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Stillage
-    second: {fileID: 2100000, guid: 50ea34e339af4ca4684150fa81b0b617, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -309,458 +128,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|ArmatureAction
-      takeName: Armature|ArmatureAction
+      name: Cradle3
+      takeName: Cradle3
       firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|ArmatureAction.001
-      takeName: Armature|ArmatureAction.001
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|ArmatureAction.002
-      takeName: Armature|ArmatureAction.002
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|ArmatureAction.003
-      takeName: Armature|ArmatureAction.003
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|ArmatureAction.004
-      takeName: Armature|ArmatureAction.004
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|ArmatureAction.005
-      takeName: Armature|ArmatureAction.005
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|ArmatureAction.006
-      takeName: Armature|ArmatureAction.006
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|ArmatureAction.007
-      takeName: Armature|ArmatureAction.007
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|ArmatureAction.008
-      takeName: Armature|ArmatureAction.008
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|Cradle.003Action
-      takeName: Armature|Cradle.003Action
-      firstFrame: 0
-      lastFrame: 104
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|Cradle.003Action.001
-      takeName: Armature|Cradle.003Action.001
-      firstFrame: 0
-      lastFrame: 104
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|Cradle.005Action.001
-      takeName: Armature|Cradle.005Action.001
-      firstFrame: 0
-      lastFrame: 239
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|Cradle.005Action.002
-      takeName: Armature|Cradle.005Action.002
-      firstFrame: 0
-      lastFrame: 239
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|Cradle.010Action
-      takeName: Armature|Cradle.010Action
-      firstFrame: 0
-      lastFrame: 51
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|Cradle.010Action.001
-      takeName: Armature|Cradle.010Action.001
-      firstFrame: 0
-      lastFrame: 51
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|ArmatureAction
-      takeName: Armature.001|ArmatureAction
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|ArmatureAction.001
-      takeName: Armature.001|ArmatureAction.001
-      firstFrame: 0
-      lastFrame: 71
+      lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -785,430 +156,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature.001|ArmatureAction.002
-      takeName: Armature.001|ArmatureAction.002
+      name: Cradle2
+      takeName: Cradle2
       firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|ArmatureAction.003
-      takeName: Armature.001|ArmatureAction.003
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|ArmatureAction.004
-      takeName: Armature.001|ArmatureAction.004
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|ArmatureAction.005
-      takeName: Armature.001|ArmatureAction.005
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|ArmatureAction.006
-      takeName: Armature.001|ArmatureAction.006
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|ArmatureAction.007
-      takeName: Armature.001|ArmatureAction.007
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|ArmatureAction.008
-      takeName: Armature.001|ArmatureAction.008
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|Cradle.003Action
-      takeName: Armature.001|Cradle.003Action
-      firstFrame: 0
-      lastFrame: 104
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|Cradle.003Action.001
-      takeName: Armature.001|Cradle.003Action.001
-      firstFrame: 0
-      lastFrame: 104
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|Cradle.005Action.001
-      takeName: Armature.001|Cradle.005Action.001
-      firstFrame: 0
-      lastFrame: 239
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|Cradle.005Action.002
-      takeName: Armature.001|Cradle.005Action.002
-      firstFrame: 0
-      lastFrame: 239
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|Cradle.010Action
-      takeName: Armature.001|Cradle.010Action
-      firstFrame: 0
-      lastFrame: 51
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.001|Cradle.010Action.001
-      takeName: Armature.001|Cradle.010Action.001
-      firstFrame: 0
-      lastFrame: 51
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.002|ArmatureAction
-      takeName: Armature.002|ArmatureAction
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.002|ArmatureAction.001
-      takeName: Armature.002|ArmatureAction.001
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.002|ArmatureAction.002
-      takeName: Armature.002|ArmatureAction.002
-      firstFrame: 0
-      lastFrame: 71
+      lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1233,17 +184,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature.002|ArmatureAction.003
-      takeName: Armature.002|ArmatureAction.003
+      name: Cradle1
+      takeName: Cradle1
       firstFrame: 0
-      lastFrame: 71
+      lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1261,17 +212,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature.002|ArmatureAction.004
-      takeName: Armature.002|ArmatureAction.004
+      name: Cradle6
+      takeName: Cradle6
       firstFrame: 0
-      lastFrame: 71
+      lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1289,17 +240,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature.002|ArmatureAction.005
-      takeName: Armature.002|ArmatureAction.005
+      name: Cradle4
+      takeName: Cradle4
       firstFrame: 0
-      lastFrame: 71
+      lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1317,17 +268,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature.002|ArmatureAction.006
-      takeName: Armature.002|ArmatureAction.006
+      name: Cradle8
+      takeName: Cradle8
       firstFrame: 0
-      lastFrame: 71
+      lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1345,17 +296,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature.002|ArmatureAction.007
-      takeName: Armature.002|ArmatureAction.007
+      name: Cradle7
+      takeName: Cradle7
       firstFrame: 0
-      lastFrame: 71
+      lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1373,381 +324,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature.002|ArmatureAction.008
-      takeName: Armature.002|ArmatureAction.008
+      name: Cradle5
+      takeName: Cradle5
       firstFrame: 0
-      lastFrame: 71
+      lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.002|Cradle.003Action
-      takeName: Armature.002|Cradle.003Action
-      firstFrame: 0
-      lastFrame: 104
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.002|Cradle.003Action.001
-      takeName: Armature.002|Cradle.003Action.001
-      firstFrame: 0
-      lastFrame: 104
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.002|Cradle.005Action.001
-      takeName: Armature.002|Cradle.005Action.001
-      firstFrame: 0
-      lastFrame: 239
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.002|Cradle.005Action.002
-      takeName: Armature.002|Cradle.005Action.002
-      firstFrame: 0
-      lastFrame: 239
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.002|Cradle.010Action
-      takeName: Armature.002|Cradle.010Action
-      firstFrame: 0
-      lastFrame: 51
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.002|Cradle.010Action.001
-      takeName: Armature.002|Cradle.010Action.001
-      firstFrame: 0
-      lastFrame: 51
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.003|ArmatureAction
-      takeName: Armature.003|ArmatureAction
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.003|ArmatureAction.001
-      takeName: Armature.003|ArmatureAction.001
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.003|ArmatureAction.002
-      takeName: Armature.003|ArmatureAction.002
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.003|ArmatureAction.003
-      takeName: Armature.003|ArmatureAction.003
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.004|ArmatureAction.004
-      takeName: Armature.004|ArmatureAction.004
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.006|ArmatureAction.006
-      takeName: Armature.006|ArmatureAction.006
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.007|ArmatureAction.007
-      takeName: Armature.007|ArmatureAction.007
-      firstFrame: 0
-      lastFrame: 71
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
