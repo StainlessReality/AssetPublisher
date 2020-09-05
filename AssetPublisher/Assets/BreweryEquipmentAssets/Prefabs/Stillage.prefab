@@ -239,6 +239,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4090850558830832}
+  - component: {fileID: 65166886175909932}
   m_Layer: 0
   m_Name: Cask
   m_TagString: Untagged
@@ -341,6 +342,7 @@ GameObject:
   - component: {fileID: 4238954996098278}
   - component: {fileID: 33246298611139426}
   - component: {fileID: 23229534220636500}
+  - component: {fileID: 114311894432221936}
   m_Layer: 0
   m_Name: Cradle2
   m_TagString: Untagged
@@ -1509,6 +1511,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1925659198898290}
   m_Mesh: {fileID: 4300026, guid: 812a4285688ce48448346aba091f0639, type: 3}
+--- !u!65 &65166886175909932
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410433145200354}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.41406134, y: 0.43236518, z: 0.4960335}
+  m_Center: {x: 0, y: 0.20251644, z: 0.24252024}
 --- !u!95 &95916075793490228
 Animator:
   serializedVersion: 3
@@ -1526,3 +1540,14 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114311894432221936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1907141907775470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e34569481926641873550ff0965adf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,7 +13,7 @@ public class ClickDetector : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
 			haveHitSomething = CastRay();
-			PrintName();
+			ExecuteClickAction();
 		}
 	}
 
@@ -28,7 +28,11 @@ public class ClickDetector : MonoBehaviour
     {
 		if (haveHitSomething && hit.transform != null)
 		{
-				print(gameObject.name);
+				print(hit.transform.gameObject.name);
 		}		
+    }
+	private void ExecuteClickAction()
+    {
+		hit.transform.gameObject.GetComponent<Animator>().SetTrigger("clicked");
     }
 }
