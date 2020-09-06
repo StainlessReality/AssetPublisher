@@ -5,7 +5,10 @@ using UnityEngine;
 public class ClickDetector : MonoBehaviour 
 {
 	private RaycastHit hit;
+	private Animator anim;
 	private bool haveHitSomething;
+	private string gameObjectName;
+	private string triggerName;
 
 	// Update is called once per frame
 	void Update () 
@@ -24,15 +27,54 @@ public class ClickDetector : MonoBehaviour
 		return haveHitSomething;
     }
 
-	private void PrintName()
-    {
-		if (haveHitSomething && hit.transform != null)
-		{
-				print(hit.transform.gameObject.name);
-		}		
-    }
+
 	private void ExecuteClickAction()
     {
-		hit.transform.gameObject.GetComponent<Animator>().SetTrigger("clicked");
+		/*if (haveHitSomething && 
+			hit.transform != null &&
+			hit.transform.GetComponent<Animator>() != null)
+		{
+			gameObjectName = hit.transform.gameObject.name;
+			anim = hit.transform.GetComponent<Animator>();
+			triggerName = gameObjectName + "_clicked";
+			print(triggerName);
+			anim.SetTrigger(triggerName);
+		}*/
+        if (haveHitSomething)
+        {
+            if (hit.transform != null)
+            {
+                if (hit.transform.GetComponent<Animator>() != null)
+                {
+					gameObjectName = hit.transform.gameObject.name;
+					anim = hit.transform.GetComponent<Animator>();
+					triggerName = gameObjectName + "_clicked";
+					print(triggerName);
+					anim.SetTrigger(triggerName);
+				}
+                else if(hit.transform.parent.GetComponent<Animator>() != null)
+                {
+					print("the thing you hit ("+ hit.transform.gameObject.name + ") has a transform, but no animator component. However, the parent " + hit.transform.parent.gameObject.name + " does!");
+					gameObjectName = hit.transform.gameObject.name;
+					anim = hit.transform.parent.GetComponent<Animator>();
+					triggerName = gameObjectName + "_clicked";
+					print(triggerName);
+					anim.SetTrigger(triggerName);
+				}
+                else
+                {
+					print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. There is also no parent with an animator component");
+
+				}
+            }
+            else
+            {
+				print("the thing you clicked has no transform component");
+            }
+        }
+        else
+        {
+			print("no collider has been hit by raycast");
+        }
     }
 }
