@@ -44,7 +44,17 @@ ModelImporter:
     7400008: HandleRightOpen
     7400010: HandleRightClose
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CleanersSink
+    second: {fileID: 2100000, guid: 700ec03e19d953e4e8e981c9262ea564, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CleanersSink Metallic
+    second: {fileID: 2800000, guid: 9f782a5d7c31510468f9905278dbaf1b, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
