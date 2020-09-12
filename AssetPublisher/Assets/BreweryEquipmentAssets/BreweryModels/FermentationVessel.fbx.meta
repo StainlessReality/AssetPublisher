@@ -1,44 +1,62 @@
 fileFormatVersion: 2
-guid: 9cb6e5959e6f4724ca9b5f70fe9dd20b
+guid: 0c4bbe5de9b32834abadd99377cd1aaa
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Armature
-    100002: Armature.001
-    100004: Bone
-    100006: Bone 1
-    100008: Bone.001
-    100010: Bone.001_end
-    100012: Bone.002
-    100014: Bone.002_end
-    100016: Bone_end
-    100018: BottomHandle
-    100020: //RootNode
-    100022: FermentationVessel.001
-    100024: Lid.001
-    100026: LockingBar.001
-    100028: LockingHandle.001
-    100030: ManHole.001
-    100032: MiddleHandle
-    100034: SideHandle
-    400000: Armature
-    400002: Armature.001
-    400004: Bone
-    400006: Bone 1
-    400008: Bone.001
-    400010: Bone.001_end
-    400012: Bone.002
-    400014: Bone.002_end
-    400016: Bone_end
-    400018: BottomHandle
-    400020: //RootNode
-    400022: FermentationVessel.001
-    400024: Lid.001
-    400026: LockingBar.001
-    400028: LockingHandle.001
-    400030: ManHole.001
-    400032: MiddleHandle
-    400034: SideHandle
+    100000: Bone
+    100002: Bone 1
+    100004: Bone 2
+    100006: Bone 3
+    100008: Bone 4
+    100010: Bone.001
+    100012: Bone.001_end
+    100014: Bone.002
+    100016: Bone.002_end
+    100018: Bone_end
+    100020: Bone_end 1
+    100022: Bone_end 2
+    100024: Bone_end 3
+    100026: BottomHandle
+    100028: BottomValve
+    100030: //RootNode
+    100032: FermentationVessel.001
+    100034: Lid.001
+    100036: LidArmature
+    100038: LockingBar.001
+    100040: LockingHandle.001
+    100042: Manhole
+    100044: ManHole.001
+    100046: MiddleHandle
+    100048: MiddleValve
+    100050: SideHandle
+    100052: SideValve
+    400000: Bone
+    400002: Bone 1
+    400004: Bone 2
+    400006: Bone 3
+    400008: Bone 4
+    400010: Bone.001
+    400012: Bone.001_end
+    400014: Bone.002
+    400016: Bone.002_end
+    400018: Bone_end
+    400020: Bone_end 1
+    400022: Bone_end 2
+    400024: Bone_end 3
+    400026: BottomHandle
+    400028: BottomValve
+    400030: //RootNode
+    400032: FermentationVessel.001
+    400034: Lid.001
+    400036: LidArmature
+    400038: LockingBar.001
+    400040: LockingHandle.001
+    400042: Manhole
+    400044: ManHole.001
+    400046: MiddleHandle
+    400048: MiddleValve
+    400050: SideHandle
+    400052: SideValve
     2100000: FermentationVessel
     2300000: BottomHandle
     2300002: FermentationVessel.001
@@ -57,23 +75,24 @@ ModelImporter:
     3300012: MiddleHandle
     3300014: SideHandle
     4300000: FermentationVessel.001
-    4300002: Lid.001
-    4300004: MiddleHandle
-    4300006: BottomHandle
-    4300008: ManHole.001
-    4300010: LockingHandle.001
-    4300012: LockingBar.001
-    4300014: SideHandle
-    7400000: LidOpen.001
-    7400002: LidClose
-    7400004: MiddleHandleOpen
-    7400006: MiddleHandleClose
-    7400008: BottomHandleOpen
-    7400010: BottomHandleClose
-    7400012: ManholeOpen
-    7400014: ManholeClose
-    7400016: SideHandleOpen
-    7400018: SideHandleClose
+    4300002: ManHole.001
+    4300004: LockingHandle.001
+    4300006: LockingBar.001
+    4300008: SideHandle
+    4300010: Lid.001
+    4300012: MiddleHandle
+    4300014: BottomHandle
+    7400000: ManholeOpen
+    7400002: ManholeClose
+    7400004: SideHandleOpen
+    7400006: SideHandleClose
+    7400008: LidOpen
+    7400010: LidClose
+    7400012: MiddleValveOpen
+    7400014: MiddleValveClose
+    7400016: MiddleValveClose.001
+    7400018: BottomValveOpen
+    7400020: BottomValveClose
     9500000: //RootNode
   externalObjects: {}
   materials:
