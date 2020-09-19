@@ -9,6 +9,7 @@ public class ClickDetector : MonoBehaviour
 	private bool haveHitSomething;
 	private string gameObjectName;
 	private string triggerName;
+	private Transform objectWithAnimCtrler;
 
 	// Update is called once per frame
 	void Update () 
@@ -42,16 +43,47 @@ public class ClickDetector : MonoBehaviour
 					print(triggerName);
 					anim.SetTrigger(triggerName);
 				}
-                else if(hit.transform.root.GetComponent<Animator>() != null)
+                else if(hit.transform.parent.GetComponent<Animator>() != null)
                 {
-					print("the thing you hit ("+ hit.transform.gameObject.name + ") has a transform, but no animator component. However, the parent " + hit.transform.parent.gameObject.name + " does!");
+					objectWithAnimCtrler = hit.transform.parent;
+					print("the thing you hit ("+ hit.transform.gameObject.name + ") has a transform, but no animator component. However, its first parent " + objectWithAnimCtrler.gameObject.name + " does!");
 					gameObjectName = hit.transform.gameObject.name;
-					anim = hit.transform.root.GetComponent<Animator>();
+					anim = objectWithAnimCtrler.GetComponent<Animator>();
 					triggerName = gameObjectName + "_clicked";
 					print(triggerName);
 					anim.SetTrigger(triggerName);
 				}
-                else
+				else if (hit.transform.parent.parent.GetComponent<Animator>() != null)
+				{
+					objectWithAnimCtrler = hit.transform.parent.parent;
+					print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. However, its second parent " + objectWithAnimCtrler.gameObject.name + " does!");
+					gameObjectName = hit.transform.gameObject.name;
+					anim = objectWithAnimCtrler.GetComponent<Animator>();
+					triggerName = gameObjectName + "_clicked";
+					print(triggerName);
+					anim.SetTrigger(triggerName);
+				}
+				else if (hit.transform.parent.parent.parent.GetComponent<Animator>() != null)
+				{
+					objectWithAnimCtrler = hit.transform.parent.parent.parent;
+					print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. However, its third parent " + objectWithAnimCtrler.gameObject.name + " does!");
+					gameObjectName = hit.transform.gameObject.name;
+					anim = objectWithAnimCtrler.GetComponent<Animator>();
+					triggerName = gameObjectName + "_clicked";
+					print(triggerName);
+					anim.SetTrigger(triggerName);
+				}
+				else if (hit.transform.parent.parent.parent.parent.GetComponent<Animator>() != null)
+				{
+					objectWithAnimCtrler = hit.transform.parent.parent.parent.parent;
+					print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. However, its fourth parent " + objectWithAnimCtrler.gameObject.name + " does!");
+					gameObjectName = hit.transform.gameObject.name;
+					anim = objectWithAnimCtrler.GetComponent<Animator>();
+					triggerName = gameObjectName + "_clicked";
+					print(triggerName);
+					anim.SetTrigger(triggerName);
+				}
+				else
                 {
 					print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. There is also no parent with an animator component");
 

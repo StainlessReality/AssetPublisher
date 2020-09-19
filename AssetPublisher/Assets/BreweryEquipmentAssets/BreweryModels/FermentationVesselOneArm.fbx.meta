@@ -85,7 +85,12 @@ ModelImporter:
     7400016: ManholeOpen
     7400018: ManholeClose
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FermentationVessel
+    second: {fileID: 2100000, guid: ad3db5a1c0114b2498e0f0ad005d7ada, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
