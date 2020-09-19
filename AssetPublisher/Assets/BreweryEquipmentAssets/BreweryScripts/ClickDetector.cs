@@ -30,16 +30,6 @@ public class ClickDetector : MonoBehaviour
 
 	private void ExecuteClickAction()
     {
-		/*if (haveHitSomething && 
-			hit.transform != null &&
-			hit.transform.GetComponent<Animator>() != null)
-		{
-			gameObjectName = hit.transform.gameObject.name;
-			anim = hit.transform.GetComponent<Animator>();
-			triggerName = gameObjectName + "_clicked";
-			print(triggerName);
-			anim.SetTrigger(triggerName);
-		}*/
         if (haveHitSomething)
         {
             if (hit.transform != null)
@@ -52,11 +42,11 @@ public class ClickDetector : MonoBehaviour
 					print(triggerName);
 					anim.SetTrigger(triggerName);
 				}
-                else if(hit.transform.parent.GetComponent<Animator>() != null)
+                else if(hit.transform.root.GetComponent<Animator>() != null)
                 {
 					print("the thing you hit ("+ hit.transform.gameObject.name + ") has a transform, but no animator component. However, the parent " + hit.transform.parent.gameObject.name + " does!");
 					gameObjectName = hit.transform.gameObject.name;
-					anim = hit.transform.parent.GetComponent<Animator>();
+					anim = hit.transform.root.GetComponent<Animator>();
 					triggerName = gameObjectName + "_clicked";
 					print(triggerName);
 					anim.SetTrigger(triggerName);
