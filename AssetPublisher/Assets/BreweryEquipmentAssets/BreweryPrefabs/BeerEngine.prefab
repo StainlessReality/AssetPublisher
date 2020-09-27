@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4711418440158962}
+  - component: {fileID: 136699677846487624}
   m_Layer: 0
   m_Name: Armature
   m_TagString: Untagged
@@ -68,6 +69,8 @@ GameObject:
   - component: {fileID: 4495532969129360}
   - component: {fileID: 33045105627601478}
   - component: {fileID: 23992982077709926}
+  - component: {fileID: 65314486720363614}
+  - component: {fileID: 65437675571312708}
   m_Layer: 0
   m_Name: BeerEngine
   m_TagString: Untagged
@@ -84,7 +87,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4512208675062744}
   - component: {fileID: 95278297051786724}
-  - component: {fileID: 65576312359735242}
   m_Layer: 0
   m_Name: BeerEngine
   m_TagString: Untagged
@@ -562,18 +564,30 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1363998738076796}
   m_Mesh: {fileID: 4300002, guid: e32e6af271c31b54dbd7ba784ec09d0f, type: 3}
---- !u!65 &65576312359735242
+--- !u!65 &65314486720363614
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1259811561509714}
+  m_GameObject: {fileID: 1257559724015782}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.16073151, y: 0.6491581, z: 0.3869038}
-  m_Center: {x: 0, y: 0.15887761, z: 0.10483302}
+  m_Size: {x: 0.1657443, y: 0.28001708, z: 0.18855001}
+  m_Center: {x: 0.0003721714, y: -0.040980607, z: 0.0015166029}
+--- !u!65 &65437675571312708
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1257559724015782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.18601094, y: 0.03803563, z: 0.1835928}
+  m_Center: {x: 0.03463202, y: -0.16197133, z: 0.19798747}
 --- !u!95 &95278297051786724
 Animator:
   serializedVersion: 3
@@ -591,3 +605,16 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!136 &136699677846487624
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054704569174338}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.00027038006
+  m_Height: 0.0036978454
+  m_Direction: 2
+  m_Center: {x: 0, y: -2.1142829e-17, z: 0.0019043769}

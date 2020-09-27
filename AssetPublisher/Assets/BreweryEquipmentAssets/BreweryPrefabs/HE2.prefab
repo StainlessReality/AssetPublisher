@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4181144736059714}
   - component: {fileID: 33224961448736466}
   - component: {fileID: 23701092254676620}
+  - component: {fileID: 65420054306489394}
+  - component: {fileID: 65542819207029264}
   m_Layer: 0
   m_Name: HeatExchanger
   m_TagString: Untagged
@@ -197,6 +199,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.013312049, y: 0.0918608, z: 0.024432609}
   m_Center: {x: -0.0000000016298145, y: -0.034309953, z: 0.0038900217}
+--- !u!65 &65420054306489394
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1152111059620244}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4025913, y: 0.6771498, z: 0.6000002}
+  m_Center: {x: -0.0012956858, y: 0.3385749, z: 0}
+--- !u!65 &65542819207029264
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1152111059620244}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.27391762, y: 0.658319, z: 0.3392083}
+  m_Center: {x: -0.0012956858, y: 1.0164707, z: 0.09650597}
 --- !u!95 &95479689982344832
 Animator:
   serializedVersion: 3

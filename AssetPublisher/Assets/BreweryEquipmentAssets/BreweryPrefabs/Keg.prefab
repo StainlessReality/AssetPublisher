@@ -38,6 +38,9 @@ GameObject:
   - component: {fileID: 4471703838277430}
   - component: {fileID: 33208559229987326}
   - component: {fileID: 23274085685912782}
+  - component: {fileID: 136236177184485528}
+  - component: {fileID: 65066925980561734}
+  - component: {fileID: 65017002401980402}
   m_Layer: 0
   m_Name: Keg.002
   m_TagString: Untagged
@@ -67,7 +70,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1857336045865200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.45, y: 0, z: 0}
+  m_LocalPosition: {x: 0.32199955, y: 0, z: -2.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4647256542299484}
@@ -183,3 +186,40 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1097223291813924}
   m_Mesh: {fileID: 4300002, guid: d7a217fe52dea5b429a85fa11dcdef3f, type: 3}
+--- !u!65 &65017002401980402
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386795066083436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.28388703, y: 0.04078269, z: 0.2828416}
+  m_Center: {x: 0, y: 0.020391345, z: 0}
+--- !u!65 &65066925980561734
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386795066083436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2828443, y: 0.059245825, z: 0.2809425}
+  m_Center: {x: 0, y: 0.5023771, z: 0}
+--- !u!136 &136236177184485528
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386795066083436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.20616712
+  m_Height: 0.532
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.266, z: 0}

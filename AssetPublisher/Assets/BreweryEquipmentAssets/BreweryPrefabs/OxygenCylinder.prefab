@@ -55,6 +55,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4747463976228940}
   - component: {fileID: 95032792351643880}
+  - component: {fileID: 65269928851237568}
+  - component: {fileID: 65604330243385402}
   m_Layer: 0
   m_Name: OxygenCylinder
   m_TagString: Untagged
@@ -185,6 +187,30 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1486562805560026}
   m_Mesh: {fileID: 4300000, guid: 62031a33e62cf3b4d882c67da727422e, type: 3}
+--- !u!65 &65269928851237568
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1504649701939768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17222464, y: 0.13092756, z: 0.1658214}
+  m_Center: {x: -0.00000009685755, y: 1.3964856, z: 0}
+--- !u!65 &65604330243385402
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1504649701939768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.23304576, y: 1.3149334, z: 0.23408821}
+  m_Center: {x: 0, y: 0.65652376, z: 0}
 --- !u!65 &65823056097908218
 BoxCollider:
   m_ObjectHideFlags: 1

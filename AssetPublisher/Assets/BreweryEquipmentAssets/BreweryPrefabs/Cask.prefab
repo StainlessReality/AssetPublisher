@@ -21,6 +21,9 @@ GameObject:
   - component: {fileID: 4764725333984310}
   - component: {fileID: 33241640390039852}
   - component: {fileID: 23814832221320198}
+  - component: {fileID: 136953695896689112}
+  - component: {fileID: 65300978361034736}
+  - component: {fileID: 65267492010228352}
   m_Layer: 0
   m_Name: Cask.004
   m_TagString: Untagged
@@ -123,7 +126,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1340117142006272}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.22, y: 0, z: 0}
+  m_LocalPosition: {x: -0.43800068, y: 0, z: -2.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4764725333984310}
@@ -255,3 +258,40 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1244186920471492}
   m_Mesh: {fileID: 4300002, guid: 84b1395b26f66484586d5daea46ebb7b, type: 3}
+--- !u!65 &65267492010228352
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1059937725820332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2826407, y: 0.06788969, z: 0.2859879}
+  m_Center: {x: 0.0037032068, y: 0.44981384, z: 1.7763568e-15}
+--- !u!65 &65300978361034736
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1059937725820332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.28562164, y: 0.04909494, z: 0.2830441}
+  m_Center: {x: 0.0037032068, y: 0.02454747, z: 5.551115e-17}
+--- !u!136 &136953695896689112
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1059937725820332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.2077032
+  m_Height: 0.48399997
+  m_Direction: 1
+  m_Center: {x: 0.0037031993, y: 0.24199998, z: -0.0000000073225257}

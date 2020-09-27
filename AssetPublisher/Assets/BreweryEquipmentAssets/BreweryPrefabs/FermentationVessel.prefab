@@ -84,6 +84,8 @@ GameObject:
   - component: {fileID: 4897525546273664}
   - component: {fileID: 33284157548601306}
   - component: {fileID: 23012485179129882}
+  - component: {fileID: 136746609301024744}
+  - component: {fileID: 65498179678779334}
   m_Layer: 0
   m_Name: FermentationVessel.001
   m_TagString: Untagged
@@ -1037,8 +1039,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.004943447, y: 0.0069309617, z: 0.0018410443}
-  m_Center: {x: 3.265584e-10, y: 0.0029654792, z: -0.0004205221}
+  m_Size: {x: 0.004943447, y: 0.0069309617, z: 0.0029413267}
+  m_Center: {x: 3.695189e-10, y: 0.0029654792, z: 0.00012962002}
 --- !u!65 &65400844100574350
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1051,6 +1053,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.001, y: 0.0028418617, z: 0.001}
   m_Center: {x: -2.5618608e-11, y: 0.0009209307, z: 4.54739e-11}
+--- !u!65 &65498179678779334
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1157121613751636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.387621, y: 0.09302559, z: 1.1600268}
+  m_Center: {x: 0.023338795, y: 0.04651202, z: 0.0010545214}
 --- !u!65 &65743858820927408
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1104,3 +1118,16 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!136 &136746609301024744
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1157121613751636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.66489327
+  m_Height: 1.9184108
+  m_Direction: 1
+  m_Center: {x: 0.023338795, y: 1.8474418, z: 0.154088}
