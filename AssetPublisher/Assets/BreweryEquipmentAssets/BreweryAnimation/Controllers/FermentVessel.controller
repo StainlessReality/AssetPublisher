@@ -8,31 +8,31 @@ AnimatorController:
   m_Name: FermentVessel
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: BoneLid_clicked
+  - m_Name: Lid_clicked
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: BoneBottomValve_clicked
+  - m_Name: BottomHandle_clicked
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: BoneManhole_clicked
+  - m_Name: ManHole_clicked
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: BoneMiddleValve_clicked
+  - m_Name: MiddleHandle_clicked
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: BoneSideValve_clicked
+  - m_Name: SideHandle_clicked
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -107,7 +107,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneSideValve_clicked
+    m_ConditionEvent: SideHandle_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102861312018671352}
@@ -131,7 +131,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneBottomValve_clicked
+    m_ConditionEvent: BottomHandle_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102829681648693378}
@@ -155,7 +155,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneLid_clicked
+    m_ConditionEvent: Lid_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102368031330042834}
@@ -179,7 +179,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneMiddleValve_clicked
+    m_ConditionEvent: MiddleHandle_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102914579348912098}
@@ -203,7 +203,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneManhole_clicked
+    m_ConditionEvent: ManHole_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102844830371534906}
@@ -227,7 +227,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneLid_clicked
+    m_ConditionEvent: Lid_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102416886008753006}
@@ -251,7 +251,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneSideValve_clicked
+    m_ConditionEvent: SideHandle_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102946285984143912}
@@ -275,7 +275,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneManhole_clicked
+    m_ConditionEvent: ManHole_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102377388943254296}
@@ -299,7 +299,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneLid_clicked
+    m_ConditionEvent: Lid_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102416886008753006}
@@ -323,7 +323,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneSideValve_clicked
+    m_ConditionEvent: SideHandle_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102861312018671352}
@@ -347,7 +347,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneMiddleValve_clicked
+    m_ConditionEvent: MiddleHandle_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102622173529748844}
@@ -371,7 +371,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneMiddleValve_clicked
+    m_ConditionEvent: MiddleHandle_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102914579348912098}
@@ -395,7 +395,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneBottomValve_clicked
+    m_ConditionEvent: BottomHandle_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102703854109887062}
@@ -419,7 +419,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneBottomValve_clicked
+    m_ConditionEvent: BottomHandle_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102829681648693378}
@@ -443,7 +443,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: BoneManhole_clicked
+    m_ConditionEvent: ManHole_clicked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102844830371534906}
@@ -583,7 +583,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400002, guid: 953919e8e37455144b6cc1c0f6c2b4ca, type: 3}
+  m_Motion: {fileID: 7400002, guid: 1dd461ef473e9fe48a60344d268e9491, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -609,7 +609,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400018, guid: 953919e8e37455144b6cc1c0f6c2b4ca, type: 3}
+  m_Motion: {fileID: 7400018, guid: 1dd461ef473e9fe48a60344d268e9491, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -635,7 +635,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 953919e8e37455144b6cc1c0f6c2b4ca, type: 3}
+  m_Motion: {fileID: 7400000, guid: 1dd461ef473e9fe48a60344d268e9491, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -661,7 +661,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400014, guid: 953919e8e37455144b6cc1c0f6c2b4ca, type: 3}
+  m_Motion: {fileID: 7400014, guid: 1dd461ef473e9fe48a60344d268e9491, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -687,7 +687,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400006, guid: 953919e8e37455144b6cc1c0f6c2b4ca, type: 3}
+  m_Motion: {fileID: 7400006, guid: 1dd461ef473e9fe48a60344d268e9491, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -713,7 +713,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400004, guid: 953919e8e37455144b6cc1c0f6c2b4ca, type: 3}
+  m_Motion: {fileID: 7400004, guid: 1dd461ef473e9fe48a60344d268e9491, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -739,7 +739,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400016, guid: 953919e8e37455144b6cc1c0f6c2b4ca, type: 3}
+  m_Motion: {fileID: 7400016, guid: 1dd461ef473e9fe48a60344d268e9491, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -765,7 +765,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400008, guid: 953919e8e37455144b6cc1c0f6c2b4ca, type: 3}
+  m_Motion: {fileID: 7400008, guid: 1dd461ef473e9fe48a60344d268e9491, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -791,7 +791,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400012, guid: 953919e8e37455144b6cc1c0f6c2b4ca, type: 3}
+  m_Motion: {fileID: 7400012, guid: 1dd461ef473e9fe48a60344d268e9491, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -843,7 +843,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400010, guid: 953919e8e37455144b6cc1c0f6c2b4ca, type: 3}
+  m_Motion: {fileID: 7400010, guid: 1dd461ef473e9fe48a60344d268e9491, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
