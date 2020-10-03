@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/BreweryEquipmentAssets/BreweryScenes/BreweryLineUp.unity
+- path: Assets/PubAssets/PubScenes/PubLineUp.unity
   isLoaded: 1
   isActive: 1
