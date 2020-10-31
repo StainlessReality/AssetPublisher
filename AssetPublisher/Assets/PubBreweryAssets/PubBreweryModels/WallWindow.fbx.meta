@@ -3,12 +3,49 @@ guid: c4a8f9f3e932f174a82cb824658a6145
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: Board
+    100002: Glass
+    100004: Glass.003
+    100006: GlassFrameBottom
+    100008: GlassFrameTop
+    100010: //RootNode
+    100012: WallWindow
+    100014: WindowArch
+    400000: Board
+    400002: Glass
+    400004: Glass.003
+    400006: GlassFrameBottom
+    400008: GlassFrameTop
+    400010: //RootNode
+    400012: WallWindow
+    400014: WindowArch
     2100000: Wall
-    2300000: //RootNode
-    3300000: //RootNode
+    2100002: Window
+    2100004: Glass
+    2300000: Board
+    2300002: Glass
+    2300004: Glass.003
+    2300006: GlassFrameBottom
+    2300008: GlassFrameTop
+    2300010: WallWindow
+    2300012: WindowArch
+    3300000: Board
+    3300002: Glass
+    3300004: Glass.003
+    3300006: GlassFrameBottom
+    3300008: GlassFrameTop
+    3300010: WallWindow
+    3300012: WindowArch
     4300000: WallWindow
+    4300002: WindowArch
+    4300004: GlassFrameBottom
+    4300006: Glass
+    4300008: Board
+    4300010: GlassFrameTop
+    4300012: Glass.003
+    7400000: WindowUp
+    7400002: WindownDown
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -36,7 +73,63 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WindowUp
+      takeName: WindowUp
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WindownDown
+      takeName: WindownDown
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 31
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -61,8 +154,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -89,7 +182,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
