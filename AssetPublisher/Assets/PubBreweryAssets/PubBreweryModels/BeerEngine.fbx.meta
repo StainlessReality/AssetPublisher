@@ -42,7 +42,7 @@ ModelImporter:
     4300002: Lever
     4300004: Piston.001
     4300006: Piston
-    7400000: Armature|ArmatureAction
+    7400000: BeerEngineAction
     9500000: //RootNode
   externalObjects:
   - first:
@@ -78,7 +78,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|ArmatureAction
+      name: BeerEngineAction
       takeName: Armature|ArmatureAction
       firstFrame: 0
       lastFrame: 119

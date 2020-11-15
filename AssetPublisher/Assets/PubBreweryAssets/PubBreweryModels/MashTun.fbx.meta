@@ -21,10 +21,10 @@ ModelImporter:
     4300000: MashTun
     4300002: Manway
     4300004: Lid
-    7400000: ManwayOpen
-    7400002: ManwayClose
-    7400004: LidOpen
-    7400006: LidClose
+    7400000: MashManwayOpen
+    7400002: MashManwayClose
+    7400004: MashLidOpen
+    7400006: MashLidClose
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -55,7 +55,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: ManwayOpen
+      name: MashManwayOpen
       takeName: ManwayOpen
       firstFrame: 0
       lastFrame: 47
@@ -83,7 +83,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ManwayClose
+      name: MashManwayClose
       takeName: ManwayClose
       firstFrame: 0
       lastFrame: 50
@@ -111,7 +111,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 50
     - serializedVersion: 16
-      name: LidOpen
+      name: MashLidOpen
       takeName: LidOpen
       firstFrame: 0
       lastFrame: 47
@@ -139,7 +139,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: LidClose
+      name: MashLidClose
       takeName: LidClose
       firstFrame: 0
       lastFrame: 43

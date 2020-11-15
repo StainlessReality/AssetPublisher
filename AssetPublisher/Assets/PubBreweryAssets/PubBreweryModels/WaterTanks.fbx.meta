@@ -31,10 +31,10 @@ ModelImporter:
     4300004: Frame
     4300006: TankTop
     4300008: LidTop
-    7400000: LidTopOpen
-    7400002: LidTopClose
-    7400004: LidBottomOpen
-    7400006: LidBottomClose
+    7400000: WaterLidTopOpen
+    7400002: WaterLidTopClose
+    7400004: WaterLidBottomOpen
+    7400006: WaterLidBottomClose
     9500000: //RootNode
   externalObjects:
   - first:
@@ -70,7 +70,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: LidTopOpen
+      name: WaterLidTopOpen
       takeName: LidTopOpen
       firstFrame: 0
       lastFrame: 47
@@ -98,7 +98,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: LidTopClose
+      name: WaterLidTopClose
       takeName: LidTopClose
       firstFrame: 0
       lastFrame: 45
@@ -126,7 +126,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 45
     - serializedVersion: 16
-      name: LidBottomOpen
+      name: WaterLidBottomOpen
       takeName: LidBottomOpen
       firstFrame: 0
       lastFrame: 23
@@ -154,7 +154,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: LidBottomClose
+      name: WaterLidBottomClose
       takeName: LidBottomClose
       firstFrame: 0
       lastFrame: 23

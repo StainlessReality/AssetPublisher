@@ -14,7 +14,7 @@ ModelImporter:
     3300002: Fan
     4300000: Evaporator
     4300002: Fan
-    7400000: FanSpinning
+    7400000: EvapFanSpinning
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -45,7 +45,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: FanSpinning
+      name: EvapFanSpinning
       takeName: FanSpinning
       firstFrame: 0
       lastFrame: 23

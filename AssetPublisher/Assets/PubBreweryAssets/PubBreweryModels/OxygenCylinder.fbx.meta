@@ -16,8 +16,8 @@ ModelImporter:
     3300002: Knob
     4300000: CO2cylinder
     4300002: Knob
-    7400000: KnobOpen
-    7400002: KnobClose
+    7400000: OxyKnobOpen
+    7400002: OxyKnobClose
     9500000: //RootNode
   externalObjects:
   - first:
@@ -53,7 +53,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: KnobOpen
+      name: OxyKnobOpen
       takeName: KnobOpen
       firstFrame: 0
       lastFrame: 47
@@ -81,7 +81,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: KnobClose
+      name: OxyKnobClose
       takeName: KnobClose
       firstFrame: 0
       lastFrame: 47

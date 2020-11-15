@@ -37,12 +37,12 @@ ModelImporter:
     4300000: Grate
     4300002: CleanersSink
     4300004: HandleLeft
-    7400000: GrateOpen
-    7400002: GrateClose
-    7400004: HandleLeftOpen
-    7400006: HandleLeftClose
-    7400008: HandleRightOpen
-    7400010: HandleRightClose
+    7400000: SinkGrateOpen
+    7400002: SinkGrateClose
+    7400004: SinkHandleLeftOpen
+    7400006: SinkHandleLeftClose
+    7400008: SinkHandleRightOpen
+    7400010: SinkHandleRightClose
     9500000: //RootNode
   externalObjects:
   - first:
@@ -83,7 +83,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: GrateOpen
+      name: SinkGrateOpen
       takeName: GrateOpen
       firstFrame: 0
       lastFrame: 59
@@ -111,7 +111,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: GrateClose
+      name: SinkGrateClose
       takeName: GrateClose
       firstFrame: 0
       lastFrame: 60
@@ -139,7 +139,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HandleLeftOpen
+      name: SinkHandleLeftOpen
       takeName: HandleLeftOpen
       firstFrame: 0
       lastFrame: 79
@@ -167,7 +167,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HandleLeftClose
+      name: SinkHandleLeftClose
       takeName: HandleLeftClose
       firstFrame: 0
       lastFrame: 79
@@ -195,7 +195,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HandleRightOpen
+      name: SinkHandleRightOpen
       takeName: HandleRightOpen
       firstFrame: 0
       lastFrame: 79
@@ -223,7 +223,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HandleRightClose
+      name: SinkHandleRightClose
       takeName: HandleRightClose
       firstFrame: 0
       lastFrame: 79

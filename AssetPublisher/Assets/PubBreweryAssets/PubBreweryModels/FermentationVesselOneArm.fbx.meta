@@ -74,16 +74,16 @@ ModelImporter:
     4300010: ManHole.001
     4300012: LockingBar.001
     4300014: LockingHandle.001
-    7400000: LidOpen
-    7400002: LidClose
-    7400004: BottomValveOpen
-    7400006: BottomValveClose
-    7400008: SideValveOpen
-    7400010: SideValveClose
-    7400012: MiddleValveOpen
-    7400014: MiddleValveClose
-    7400016: ManholeOpen
-    7400018: ManholeClose
+    7400000: Ferm2LidOpen
+    7400002: Ferm2LidClose
+    7400004: Ferm2BottomValveOpen
+    7400006: Ferm2BottomValveClose
+    7400008: Ferm2SideValveOpen
+    7400010: Ferm2SideValveClose
+    7400012: Ferm2MiddleValveOpen
+    7400014: Ferm2MiddleValveClose
+    7400016: Ferm2ManholeOpen
+    7400018: Ferm2ManholeClose
     9500000: //RootNode
   externalObjects:
   - first:
@@ -119,7 +119,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: LidOpen
+      name: Ferm2LidOpen
       takeName: LidOpen
       firstFrame: 0
       lastFrame: 46
@@ -147,7 +147,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: LidClose
+      name: Ferm2LidClose
       takeName: LidClose
       firstFrame: 0
       lastFrame: 51
@@ -175,7 +175,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 51
     - serializedVersion: 16
-      name: BottomValveOpen
+      name: Ferm2BottomValveOpen
       takeName: BottomValveOpen
       firstFrame: 0
       lastFrame: 23
@@ -203,7 +203,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: BottomValveClose
+      name: Ferm2BottomValveClose
       takeName: BottomValveClose
       firstFrame: 0
       lastFrame: 23
@@ -231,7 +231,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 23
     - serializedVersion: 16
-      name: SideValveOpen
+      name: Ferm2SideValveOpen
       takeName: SideValveOpen
       firstFrame: 0
       lastFrame: 23
@@ -259,7 +259,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: SideValveClose
+      name: Ferm2SideValveClose
       takeName: SideValveClose
       firstFrame: 0
       lastFrame: 23
@@ -287,7 +287,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 23
     - serializedVersion: 16
-      name: MiddleValveOpen
+      name: Ferm2MiddleValveOpen
       takeName: MiddleValveOpen
       firstFrame: 0
       lastFrame: 23
@@ -315,7 +315,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: MiddleValveClose
+      name: Ferm2MiddleValveClose
       takeName: MiddleValveClose
       firstFrame: 0
       lastFrame: 23
@@ -343,7 +343,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 23
     - serializedVersion: 16
-      name: ManholeOpen
+      name: Ferm2ManholeOpen
       takeName: ManholeOpen
       firstFrame: 0
       lastFrame: 102
@@ -371,7 +371,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ManholeClose
+      name: Ferm2ManholeClose
       takeName: ManholeClose
       firstFrame: 0
       lastFrame: 102

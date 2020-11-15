@@ -27,10 +27,10 @@ ModelImporter:
     4300000: Manway.001
     4300002: KettleJoined.006
     4300004: Lid.004
-    7400000: ManwayOpen
-    7400002: ManwayClose
-    7400004: LidOpen
-    7400006: LidClose
+    7400000: KettleManwayOpen
+    7400002: KettleManwayClose
+    7400004: KettleLidOpen
+    7400006: KettleLidClose
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -61,7 +61,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: ManwayOpen
+      name: KettleManwayOpen
       takeName: ManwayOpen
       firstFrame: 0
       lastFrame: 47
@@ -89,7 +89,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 47
     - serializedVersion: 16
-      name: ManwayClose
+      name: KettleManwayClose
       takeName: ManwayClose
       firstFrame: 0
       lastFrame: 37
@@ -117,7 +117,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 37
     - serializedVersion: 16
-      name: LidOpen
+      name: KettleLidOpen
       takeName: LidOpen
       firstFrame: 0
       lastFrame: 47
@@ -145,7 +145,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 47
     - serializedVersion: 16
-      name: LidClose
+      name: KettleLidClose
       takeName: LidClose
       firstFrame: 0
       lastFrame: 43

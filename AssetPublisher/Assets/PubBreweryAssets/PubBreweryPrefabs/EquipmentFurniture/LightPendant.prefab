@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2717171898902462369}
   - component: {fileID: 2717171898905886599}
   - component: {fileID: 2717171898904755527}
+  - component: {fileID: 8488050363498886958}
   m_Layer: 0
   m_Name: Shade.001
   m_TagString: Untagged
@@ -77,6 +78,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8488050363498886958
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2717171898902815617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.24534075, y: 0.11496374, z: 0.24534075}
+  m_Center: {x: 0, y: 0.05748187, z: 0}
 --- !u!1 &2717171898902815621
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,7 +115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2717171898902815621}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 3, z: 3.441}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2717171898902462375}

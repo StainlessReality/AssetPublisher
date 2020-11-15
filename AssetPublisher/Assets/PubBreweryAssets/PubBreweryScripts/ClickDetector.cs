@@ -4,26 +4,33 @@ using UnityEngine;
 
 public class ClickDetector : MonoBehaviour 
 {
-	private RaycastHit hit;
-	private Animator anim;
-	private bool haveHitSomething;
-	private string gameObjectName;
-	private string triggerName;
-	private Transform objectWithAnimCtrler;
+	private RaycastHit hit; // will store information about what has been clicked
+	private Animator anim; //will represent the animator component of the clicked object
+	private bool haveHitSomething; //answer to whether something is hit
+	private string gameObjectName;//will store the name of the object with animation controller
+	private string triggerName;//will store the name of the animator controller trigger parameter to be fired
+	private Transform objectWithAnimCtrler;// wiss store the transform of the object with animation controller
 
 	// Update is called once per frame
 	void Update () 
 	{
-        if (Input.GetMouseButtonDown(0))
+        //If the LMB has been pressed, shoot a ray and trigger appropriate action
+		if (Input.GetMouseButtonDown(0))
         {
+			//This boolean holds the answer to whether a collider has been hit
 			haveHitSomething = CastRay();
+
 			ExecuteClickAction();
 		}
 	}
 
 	private bool CastRay()
     {
+		//Cast a ray at the mouse position
 		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+		//Check if the ray has hit something. The answer is stored in haveHitSomething
+		//The object it hits is stored using 'hit'
 		haveHitSomething = Physics.Raycast(ray, out hit, 100.0f);
 		return haveHitSomething;
     }
@@ -33,19 +40,22 @@ public class ClickDetector : MonoBehaviour
     {
         if (haveHitSomething)
         {
-            if (hit.transform != null)
+            //Does the thing you clicked have a transform?
+			if (hit.transform != null)
             {
-                if (hit.transform.GetComponent<Animator>() != null)
+                //Does it also have an Animator component?
+				if (hit.transform.GetComponent<Animator>() != null)
                 {
-					gameObjectName = hit.transform.gameObject.name;
-					anim = hit.transform.GetComponent<Animator>();
-					triggerName = gameObjectName + "_clicked";
+					gameObjectName = hit.transform.gameObject.name;//Store name of the collider's object
+					anim = hit.transform.GetComponent<Animator>(); //Store the object's animator component
+					triggerName = gameObjectName + "_clicked"; //Build the relevant animator controller trigger parameter name
 					print(triggerName);
-					anim.SetTrigger(triggerName);
+					anim.SetTrigger(triggerName); //Fire the parameter in the appropriate animator component
 				}
-                else if(hit.transform.parent.GetComponent<Animator>() != null)
+                //Does its parent have an animator component?
+				else if(hit.transform.parent.GetComponent<Animator>() != null)
                 {
-					objectWithAnimCtrler = hit.transform.parent;
+					objectWithAnimCtrler = hit.transform.parent; //Get the parent of the object we just tried
 					print("the thing you hit ("+ hit.transform.gameObject.name + ") has a transform, but no animator component. However, its first parent " + objectWithAnimCtrler.gameObject.name + " does!");
 					gameObjectName = hit.transform.gameObject.name;
 					anim = objectWithAnimCtrler.GetComponent<Animator>();
@@ -53,6 +63,7 @@ public class ClickDetector : MonoBehaviour
 					print(triggerName);
 					anim.SetTrigger(triggerName);
 				}
+				//Does the next parent up have an animator component?
 				else if (hit.transform.parent.parent.GetComponent<Animator>() != null)
 				{
 					objectWithAnimCtrler = hit.transform.parent.parent;
@@ -63,6 +74,7 @@ public class ClickDetector : MonoBehaviour
 					print(triggerName);
 					anim.SetTrigger(triggerName);
 				}
+				//Does the next parent up have an animator component?
 				else if (hit.transform.parent.parent.parent.GetComponent<Animator>() != null)
 				{
 					objectWithAnimCtrler = hit.transform.parent.parent.parent;
@@ -73,6 +85,7 @@ public class ClickDetector : MonoBehaviour
 					print(triggerName);
 					anim.SetTrigger(triggerName);
 				}
+				//Does the next parent up have an animator component?
 				else if (hit.transform.parent.parent.parent.parent.GetComponent<Animator>() != null)
 				{
 					objectWithAnimCtrler = hit.transform.parent.parent.parent.parent;
@@ -83,6 +96,7 @@ public class ClickDetector : MonoBehaviour
 					print(triggerName);
 					anim.SetTrigger(triggerName);
 				}
+				//Give up trying at this point, this object is probably not animated.
 				else
                 {
 					print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. There is also no parent with an animator component");

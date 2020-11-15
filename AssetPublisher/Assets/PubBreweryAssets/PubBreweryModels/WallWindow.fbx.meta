@@ -43,8 +43,8 @@ ModelImporter:
     4300008: Board
     4300010: GlassFrameTop
     4300012: Glass.003
-    7400000: WindowUp
-    7400002: WindownDown
+    7400000: WallWindowUp
+    7400002: WallWindownDown
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -75,7 +75,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: WindowUp
+      name: WallWindowUp
       takeName: WindowUp
       firstFrame: 0
       lastFrame: 39
@@ -103,7 +103,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: WindownDown
+      name: WallWindownDown
       takeName: WindownDown
       firstFrame: 0
       lastFrame: 31

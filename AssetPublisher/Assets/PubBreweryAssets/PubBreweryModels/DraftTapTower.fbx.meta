@@ -29,14 +29,14 @@ ModelImporter:
     4300004: Handle.005
     4300006: Handle.006
     4300008: Handle.007
-    7400000: Handle4Open
-    7400002: Handle4Close
-    7400004: Handle3Open
-    7400006: Handle3Close
-    7400008: Handle2Open
-    7400010: Handle2Close
-    7400012: Handle1Open
-    7400014: Handle1Close
+    7400000: TapHandle4Open
+    7400002: TapHandle4Close
+    7400004: TapHandle3Open
+    7400006: TapHandle3Close
+    7400008: TapHandle2Open
+    7400010: TapHandle2Close
+    7400012: TapHandle1Open
+    7400014: TapHandle1Close
     9500000: //RootNode
   externalObjects:
   - first:
@@ -72,7 +72,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Handle4Open
+      name: TapHandle4Open
       takeName: Handle4Open
       firstFrame: 0
       lastFrame: 40
@@ -100,7 +100,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Handle4Close
+      name: TapHandle4Close
       takeName: Handle4Close
       firstFrame: 0
       lastFrame: 40
@@ -128,7 +128,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 40
     - serializedVersion: 16
-      name: Handle3Open
+      name: TapHandle3Open
       takeName: Handle3Open
       firstFrame: 0
       lastFrame: 40
@@ -156,7 +156,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Handle3Close
+      name: TapHandle3Close
       takeName: Handle3Close
       firstFrame: 0
       lastFrame: 40
@@ -184,7 +184,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 40
     - serializedVersion: 16
-      name: Handle2Open
+      name: TapHandle2Open
       takeName: Handle2Open
       firstFrame: 0
       lastFrame: 40
@@ -212,7 +212,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Handle2Close
+      name: TapHandle2Close
       takeName: Handle2Close
       firstFrame: 0
       lastFrame: 40
@@ -240,7 +240,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 40
     - serializedVersion: 16
-      name: Handle1Open
+      name: TapHandle1Open
       takeName: Handle1Open
       firstFrame: 0
       lastFrame: 40
@@ -268,7 +268,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Handle1Close
+      name: TapHandle1Close
       takeName: Handle1Close
       firstFrame: 0
       lastFrame: 40

@@ -124,9 +124,9 @@ ModelImporter:
     4300040: BezierCurve.009
     4300042: BezierCurve.010
     4300044: BezierCurve.011
-    7400000: FOB1moving
-    7400002: FOB2moving
-    7400004: FOB3moving
+    7400000: DraftFOB1moving
+    7400002: DraftFOB2moving
+    7400004: DraftFOB3moving
     9500000: //RootNode
   externalObjects:
   - first:
@@ -177,7 +177,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: FOB1moving
+      name: DraftFOB1moving
       takeName: FOB1moving
       firstFrame: 0
       lastFrame: 119
@@ -205,7 +205,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FOB2moving
+      name: DraftFOB2moving
       takeName: FOB2moving
       firstFrame: 0
       lastFrame: 119
@@ -233,7 +233,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: FOB3moving
+      name: DraftFOB3moving
       takeName: FOB3moving
       firstFrame: 0
       lastFrame: 119

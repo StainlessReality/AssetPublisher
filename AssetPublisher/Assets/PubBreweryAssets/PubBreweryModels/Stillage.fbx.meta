@@ -91,14 +91,14 @@ ModelImporter:
     4300028: CradleBottomToRig.007
     4300030: Cradle7
     4300032: Cradle5
-    7400000: Cradle3
-    7400002: Cradle2
-    7400004: Cradle1
-    7400006: Cradle6
-    7400008: Cradle4
-    7400010: Cradle8
-    7400012: Cradle7
-    7400014: Cradle5
+    7400000: StillCradle3
+    7400002: StillCradle2
+    7400004: StillCradle1
+    7400006: StillCradle6
+    7400008: StillCradle4
+    7400010: StillCradle8
+    7400012: StillCradle7
+    7400014: StillCradle5
     9500000: //RootNode
   externalObjects:
   - first:
@@ -134,7 +134,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Cradle3
+      name: StillCradle3
       takeName: Cradle3
       firstFrame: 0
       lastFrame: 95
@@ -162,7 +162,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Cradle2
+      name: StillCradle2
       takeName: Cradle2
       firstFrame: 0
       lastFrame: 95
@@ -190,7 +190,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Cradle1
+      name: StillCradle1
       takeName: Cradle1
       firstFrame: 0
       lastFrame: 95
@@ -218,7 +218,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Cradle6
+      name: StillCradle6
       takeName: Cradle6
       firstFrame: 0
       lastFrame: 95
@@ -246,7 +246,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Cradle4
+      name: StillCradle4
       takeName: Cradle4
       firstFrame: 0
       lastFrame: 95
@@ -274,7 +274,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Cradle8
+      name: StillCradle8
       takeName: Cradle8
       firstFrame: 0
       lastFrame: 95
@@ -302,7 +302,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Cradle7
+      name: StillCradle7
       takeName: Cradle7
       firstFrame: 0
       lastFrame: 95
@@ -330,7 +330,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Cradle5
+      name: StillCradle5
       takeName: Cradle5
       firstFrame: 0
       lastFrame: 95

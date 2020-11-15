@@ -38,9 +38,9 @@ ModelImporter:
     4300006: DoorLeaf
     4300008: Plane.094
     4300010: Plane.097
-    7400000: DoorOpen
-    7400002: DoorClose
-    7400004: DoorHandleAction
+    7400000: WallDoorOpen
+    7400002: WallDoorClose
+    7400004: WallDoorHandleAction
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -71,7 +71,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: DoorOpen
+      name: WallDoorOpen
       takeName: DoorOpen
       firstFrame: 0
       lastFrame: 47
@@ -99,7 +99,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: DoorClose
+      name: WallDoorClose
       takeName: DoorClose
       firstFrame: 0
       lastFrame: 47
@@ -127,7 +127,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 47
     - serializedVersion: 16
-      name: DoorHandleAction
+      name: WallDoorHandleAction
       takeName: DoorHandleAction
       firstFrame: 0
       lastFrame: 20
