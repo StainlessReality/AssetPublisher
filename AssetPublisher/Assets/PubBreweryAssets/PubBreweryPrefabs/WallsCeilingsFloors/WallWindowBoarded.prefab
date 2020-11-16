@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &892335552929510993
 Transform:
@@ -107,7 +107,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &892335552929510995
 Transform:
@@ -258,7 +258,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &892335552929510999
 Transform:
@@ -336,7 +336,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &892335552929511001
 Transform:
@@ -426,7 +426,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &892335552929511003
 Transform:
@@ -503,7 +503,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &892335552929511005
 Transform:
@@ -581,7 +581,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &892335552929511007
 Transform:
@@ -723,6 +723,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PanelTrimWindow
       objectReference: {fileID: 0}
+    - target: {fileID: 7514868664984128993, guid: a556cfe3c60d7444787cfae8ea544728,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a556cfe3c60d7444787cfae8ea544728, type: 3}
 --- !u!4 &2849386385377403565 stripped
@@ -742,6 +747,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PanelBoardsWindow
+      objectReference: {fileID: 0}
+    - target: {fileID: 9012409595902649375, guid: 1cd70bea572ba8940b77ddbbc49e5146,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9012409595903014975, guid: 1cd70bea572ba8940b77ddbbc49e5146,
         type: 3}
@@ -872,6 +882,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cove
+      objectReference: {fileID: 0}
+    - target: {fileID: 4951778440698051300, guid: 1fe33c644153ae44ea86550181b4b4d5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fe33c644153ae44ea86550181b4b4d5, type: 3}
