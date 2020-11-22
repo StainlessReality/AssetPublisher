@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 23561115036248794}
   - component: {fileID: 65644983451312552}
   m_Layer: 0
-  m_Name: Lid
+  m_Name: FermLid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

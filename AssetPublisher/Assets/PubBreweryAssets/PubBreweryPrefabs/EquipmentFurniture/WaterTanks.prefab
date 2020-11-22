@@ -381,7 +381,7 @@ GameObject:
   - component: {fileID: 23326534671911022}
   - component: {fileID: 65080581330177236}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: WaterTankFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
