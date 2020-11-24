@@ -10,6 +10,8 @@ public class ClickDetector : MonoBehaviour
 	private string gameObjectName;//will store the name of the object with animation controller
 	private string triggerName;//will store the name of the animator controller trigger parameter to be fired
 	private Transform objectWithAnimCtrler;// wiss store the transform of the object with animation controller
+    private int noOfTriggers;
+    private AnimatorControllerParameter[] triggers;
 
 	// Update is called once per frame
 	void Update () 
@@ -65,7 +67,7 @@ public class ClickDetector : MonoBehaviour
                             if (hit.transform.parent.parent.GetComponent<Animator>() != null) //Does the second parent have an animator?
                             {
                                 objectWithAnimCtrler = hit.transform.parent.parent; //Get the parent of the object we just tried
-                                print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. However, its first parent " + objectWithAnimCtrler.gameObject.name + " does!");
+                                print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. However, its second parent " + objectWithAnimCtrler.gameObject.name + " does!");
                                 TriggerAnimation();
                             }
                             else
@@ -76,7 +78,7 @@ public class ClickDetector : MonoBehaviour
                                     if (hit.transform.parent.parent.parent.GetComponent<Animator>() != null) //Does the third parent have an animator?
                                     {
                                         objectWithAnimCtrler = hit.transform.parent.parent.parent; //Get the parent of the object we just tried
-                                        print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. However, its first parent " + objectWithAnimCtrler.gameObject.name + " does!");
+                                        print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. However, its third parent " + objectWithAnimCtrler.gameObject.name + " does!");
                                         TriggerAnimation();
                                     }
                                     else
@@ -88,7 +90,7 @@ public class ClickDetector : MonoBehaviour
                                             if (hit.transform.parent.parent.parent.parent.GetComponent<Animator>() != null) //Does the fourth parent have an animator?
                                             {
                                                 objectWithAnimCtrler = hit.transform.parent.parent.parent.parent; //Get the parent of the object we just tried
-                                                print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. However, its first parent " + objectWithAnimCtrler.gameObject.name + " does!");
+                                                print("the thing you hit (" + hit.transform.gameObject.name + ") has a transform, but no animator component. However, its fourth parent " + objectWithAnimCtrler.gameObject.name + " does!");
                                                 TriggerAnimation();
                                             }
                                             else
@@ -134,7 +136,18 @@ public class ClickDetector : MonoBehaviour
 		gameObjectName = hit.transform.gameObject.name;//Store name of the collider's object
 		anim = objectWithAnimCtrler.GetComponent<Animator>(); //Store the object's animator component
 		triggerName = gameObjectName + "_clicked"; //Build the relevant animator controller trigger parameter name
-		print("firing " + triggerName);
-        anim.SetTrigger(triggerName); //Fire the parameter in the appropriate animator component   
+        triggers = anim.parameters;
+        foreach (var trigger in triggers)
+        {
+            if (trigger.name == triggerName)
+            {
+                print("firing " + triggerName);
+                anim.SetTrigger(triggerName); //Fire the parameter in the appropriate animator component
+            }
+            else
+            {
+                print(objectWithAnimCtrler.gameObject.name + " has no parameter called " + triggerName);
+            }
+        }
 	}
 }
