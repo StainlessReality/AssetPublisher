@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 65060219918148042}
   - component: {fileID: 65306800103548730}
   m_Layer: 0
-  m_Name: Frame
+  m_Name: ShelvingFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
