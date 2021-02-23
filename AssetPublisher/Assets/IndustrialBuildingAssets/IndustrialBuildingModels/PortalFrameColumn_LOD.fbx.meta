@@ -34,12 +34,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Frame_LOD1
-    second: {fileID: 2100000, guid: b71cd12257ffb3f47b69dbd227d12ce9, type: 2}
+    second: {fileID: 2100000, guid: 1beb264480f287a45b0a734e3da35b46, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Frame_LOD2
-    second: {fileID: 2100000, guid: e551dbf904853b84889569fd1c1f5556, type: 2}
+    second: {fileID: 2100000, guid: 1beb264480f287a45b0a734e3da35b46, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
